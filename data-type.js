@@ -1,18 +1,18 @@
 // Defining variable.
 
-// integer datatype
+// integer datatype.
 let number = 23
 
-// string
+// string dtatype.
 let name = "Vishal"
 
-// boolean datatype
+// boolean datatype.
 let boolean = true
 
-// null datatype
+// null datatype.
 let vishal = null
 
-// undefined datatype
+// undefined datatype.
 let college;
 
 // define bigint datatype.
