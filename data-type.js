@@ -38,5 +38,5 @@ console.log(typeof college)
 console.log(typeof bignumber)
 
 // print type of all variables in a table form.
-console.table([typeof number, typeof name,typeof boolean, typeof vishal, typeof bignumber, typeof college]);
+console.table([typeof number, typeof name, typeof boolean, typeof vishal, typeof bignumber, typeof college]);
 
