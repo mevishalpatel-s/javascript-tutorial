@@ -1,18 +1,18 @@
 // Defining variable.
 
-// integer datatype
+// integer datatype.
 let number = 23
 
-// string
+// string dtatype.
 let name = "Vishal"
 
-// boolean datatype
+// boolean datatype.
 let boolean = true
 
-// null datatype
+// null datatype.
 let vishal = null
 
-// undefined datatype
+// undefined datatype.
 let college;
 
 // define bigint datatype.
@@ -38,5 +38,5 @@ console.log(typeof college)
 console.log(typeof bignumber)
 
 // print type of all variables in a table form.
-console.table([typeof number, typeof name,typeof boolean, typeof vishal, typeof bignumber, typeof college]);
+console.table([typeof number, typeof name, typeof boolean, typeof vishal, typeof bignumber, typeof college]);
 
