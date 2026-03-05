@@ -1,4 +1,4 @@
-// Defining variable.
+// Primitive Datatype.
 
 // integer datatype.
 let number = 23
@@ -39,4 +39,50 @@ console.log(typeof bignumber)
 
 // print type of all variables in a table form.
 console.table([typeof number, typeof name, typeof boolean, typeof vishal, typeof bignumber, typeof college]);
+
+
+// Symbol Datatype.
+
+const id = Symbol('123')
+const newId = Symbol('123')
+
+console.log(id);
+console.log(typeof id);
+
+console.log(newId);
+console.log(typeof newId)
+
+console.log(id == newId);
+
+// =================================================================================================================
+
+
+// Non-Premitive datatype(Reference datatype).
+
+// Array
+
+const names = ["Vishal", "Aman", "Priya"]
+console.log(name);
+console.log(name[2]);
+console.log(typeof name);
+
+// Object 
+
+let myObject = {
+    name : "Vishal",
+    age : 22,
+    class: 'B.Sc.',
+}
+
+console.log(myObject)
+console.log(typeof myObject)
+
+// Function
+
+const myFunction = function(){
+    console.log("Hello World!");
+}
+
+console.log(myFunction)
+console.log( typeof myFunction)
 
