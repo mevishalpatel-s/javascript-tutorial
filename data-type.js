@@ -13,6 +13,7 @@ let boolean = true
 let vishal = null
 
 // undefined datatype.
+// const a;    -> it is not allowed.
 let college;
 
 // define bigint datatype.
@@ -76,6 +77,13 @@ let myObject = {
 
 console.log(myObject)
 console.log(typeof myObject)
+
+
+// To print a perticular value.
+console.log(myObject.name)
+// OR
+console.log(myObject[name]);
+
 
 // Function
 
