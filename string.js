@@ -1,53 +1,53 @@
-// //======================================= Strings ============================================================
+//======================================= Strings ============================================================
 
-// // String is a sequence of charecters used to represents text.
+// String is a sequence of charecters used to represents text.
 
-// //Create string:
-// let str = "Vishal"
-// console.log(str)
+//Create string:
+let str = "Vishal"
+console.log(str)
 
-// // String length:
-// console.log(str.length);
+// String length:
+console.log(str.length);
 
-// // String indices/Index:
-// console.log(str[2]);
+// String indices/Index:
+console.log(str[2]);
 
 
-// //===================================== Template Literals ===================================================
+//===================================== Template Literals ===================================================
 
-// // A way to have embadded expresions in string.
+// A way to have embadded expresions in string.
 
-// templateLiterals = `this is a template literals.`
+templateLiterals = `this is a template literals.`
 
-// // String Interpolation: use to create strings by doing substitution of "Placeholder".
-// //Syntax: string text ${expression} string text.
+// String Interpolation: use to create strings by doing substitution of "Placeholder".
+//Syntax: string text ${expression} string text.
 
-// let product = "Pen"
-// let price = 200
+let product = "Pen"
+let price = 200
 
-// console.log(`This is a ${product} at the cost of ${price}.`)
+console.log(`This is a ${product} at the cost of ${price}.`)
 
-// //=================================== String methods ========================================================
-// // These are built-in function to manipulate a string.
+//=================================== String methods ========================================================
+// These are built-in function to manipulate a string.
 
-// //======================= For UpperCase.
+//======================= For UpperCase.
 
-// let fruit = "Mango"
-// let newFruit = fruit.toUpperCase()
+let fruit = "Mango"
+let newFruit = fruit.toUpperCase()
 
-// console.log(newFruit)
+console.log(newFruit)
 
-// //====================== For LowerCase.
+//====================== For LowerCase.
 
-// let veg = "TOMATO"
-// let newVeg = veg.toLowerCase()
+let veg = "TOMATO"
+let newVeg = veg.toLowerCase()
 
-// console.log(newVeg);
+console.log(newVeg);
 
-// // =================== For Remove Whitespaces from a string. 
+// =================== For Remove Whitespaces from a string. 
 
-// let str1 = "      Vishal     123"
-// console.log(str1.trim());
+let str1 = "      Vishal     123"
+console.log(str1.trim());
 
 // ================ str.slice(start, end?): return part of string but the end is not countable.
 
