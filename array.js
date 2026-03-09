@@ -46,3 +46,8 @@ for (let i of c){
     console.log(i)
 }
 
+let cities = ["Delhi", "Goa", "Mumbai", "Lucknow"]
+for (city of cities){
+    console.log(city)
+    console.log(city.toupperCase())
+}
