@@ -2,7 +2,6 @@
 
 console.log("Hello World!")
 
-
 // =============================== Comments ==============================================================
 
 //  we use "//" for single comment.  Comments are part of programs but not for the executions.
@@ -11,7 +10,6 @@ console.log("Hello World!")
 
 /* This is a multiline comment
 use to decribe code in javaScipt.*/
-
 
 
 // ============================ Alert: One time PopUp =====================================================================
