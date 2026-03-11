@@ -41,13 +41,39 @@
 
 //for-of loop =======================================================================
 
-let c = [23, 40, 34, 59, 34, 54]
-for (let i of c){
-    console.log(i)
-}
+// let c = [23, 40, 34, 59, 34, 54]
+// for (let i of c){
+//     console.log(i)
+// }
 
-let cities = ["Delhi", "Goa", "Mumbai", "Lucknow"]
-for (city of cities){
-    console.log(city)
-    console.log(city.toupperCase())
-}
+// let cities = ["Delhi", "Goa", "Mumbai", "Lucknow"]
+// for (city of cities){
+//     console.log(city)
+// }
+
+// ================================ Araay methodes ============================================================================
+
+// ================== 1. push()  ---- Use to add items in the end of an array.
+
+let fruits = ["Banana", "Mango", "Apple"]
+fruits.push("Orenge")   // - this syntax is use to add items in the array.
+console.log(fruits)
+
+
+//====================  2. pop() ---- Use to delete intems from the end of the array.
+
+// fruits.pop() -- this syntax use to remove items from an array.
+
+
+// ==================== 3. toString()  --- use to get an array into an string.
+
+console.log(fruits.toString)
+
+
+// =================== 4. toConcat()  --- Use to add arrays and get another a
+
+
+
+
+
+
