@@ -22,7 +22,6 @@ alert("Hello World! ")   // Only for browser.
 let name = prompt("Enter Your name: ")
 console.log(name);
 
-
 // Example:
 
 let num = prompt("Enter a number: ")
